@@ -56,7 +56,7 @@ class ImageGallery extends Component{
         console.log(this.state.page)
         console.log(this.state.hits)
         // console.log(this.state.modalImg)
-        const {hits, error, page, status, modalImg} = this.state
+        const {hits, status, modalImg} = this.state
         if(this.state.modalStatus){
             return  <Modal clouseModal={this.clouseModal} bigImg={modalImg}/>
          }

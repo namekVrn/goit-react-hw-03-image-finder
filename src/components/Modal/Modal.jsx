@@ -1,4 +1,4 @@
-import react,{ Component } from 'react'
+import { Component } from 'react'
 import './Modal.css'
 
 import { InfinitySpin } from  'react-loader-spinner'
